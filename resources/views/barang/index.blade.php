@@ -17,9 +17,13 @@
                     <th class="px-4 py-2">Nama</th>
                     <th class="px-4 py-2">Kode</th>
                     <th class="px-4 py-2">Kategori</th>
+                    <th class="px-4 py-2">Merk</th>
+                    <th class="px-4 py-2">Model</th>
                     <th class="px-4 py-2">Tahun</th>
                     <th class="px-4 py-2">Jumlah</th>
                     <th class="px-4 py-2">Kondisi</th>
+                    <th class="px-4 py-2">Lokasi</th>
+                    <th class="px-4 py-2">Keterangan</th>
                     <th class="px-4 py-2">Aksi</th>
                 </tr>
             </thead>
@@ -29,9 +33,13 @@
                     <td class="px-4 py-2">{{ $item->nama_barang }}</td>
                     <td class="px-4 py-2">{{ $item->kode_barang }}</td>
                     <td class="px-4 py-2">{{ $item->kategori }}</td>
+                    <td class="px-4 py-2">{{ $item->merk }}</td>
+                    <td class="px-4 py-2">{{ $item->model }}</td>
                     <td class="px-4 py-2">{{ $item->tahun_pembelian }}</td>
                     <td class="px-4 py-2">{{ $item->jumlah }}</td>
                     <td class="px-4 py-2">{{ $item->kondisi }}</td>
+                    <td class="px-4 py-2">{{ $item->lokasi_penyimpanan }}</td>
+                    <td class="px-4 py-2">{{ $item->keterangan }}</td>
                     <td class="px-4 py-2 flex gap-2">
                         <a href="{{ route('barang.edit', $item) }}">
                             <x-fluxui-button>Edit</x-fluxui-button>
