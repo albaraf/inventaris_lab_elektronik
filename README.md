@@ -46,3 +46,5 @@ bash
 git clone https://github.com/albaraf/inventaris_lab_elektronik.git
 
 cd inventaris_lab_elektronik
+
+http://127.0.0.1:8000/barang
