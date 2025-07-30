@@ -34,6 +34,8 @@ Buka **phpMyAdmin**, **HeidiSQL**, atau terminal MySQL, lalu buat database baru:
 CREATE DATABASE inventaris_lab;
 php artisan migrate
 
+---
+
 ## ⚙️ Cara Jalankan
 
 ### 1️⃣ Clone Project
