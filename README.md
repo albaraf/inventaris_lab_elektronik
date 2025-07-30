@@ -32,7 +32,7 @@ Buka **phpMyAdmin**, **HeidiSQL**, atau terminal MySQL, lalu buat database baru:
 
 '''sql
 CREATE DATABASE inventaris_lab;
-php artisan migrate
+'''php artisan migrate
 
 ---
 ## ⚙️ Cara Jalankan
@@ -41,4 +41,4 @@ php artisan migrate
 
 '''bash
 git clone https://github.com/albaraf/inventaris_lab_elektronik.git
-cd inventaris_lab_elektronik
+'''cd inventaris_lab_elektronik
