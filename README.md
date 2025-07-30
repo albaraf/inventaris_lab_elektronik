@@ -31,7 +31,8 @@ Aplikasi CRUD Laravel 12 untuk manajemen inventaris barang elektronik laboratori
 Buka **phpMyAdmin**, **HeidiSQL**, atau terminal MySQL, lalu buat database baru:
 
 '''sql
-CREATE DATABASE inventaris_lab;  :
+CREATE DATABASE inventaris_lab;
+
 php artisan migrate
 
 ---
@@ -40,5 +41,6 @@ php artisan migrate
 1️⃣ **Clone Project**
 
 '''bash
-git clone https://github.com/albaraf/inventaris_lab_elektronik.git  :
+git clone https://github.com/albaraf/inventaris_lab_elektronik.git
+
 cd inventaris_lab_elektronik
