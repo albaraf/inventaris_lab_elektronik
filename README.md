@@ -24,6 +24,15 @@ Aplikasi CRUD Laravel 12 untuk manajemen inventaris barang elektronik laboratori
 ✅ Desain responsif (Tailwind + FluxUI)
 
 ---
+## ⚙️ Konfigurasi Database
+
+1️⃣ **Buat Database**
+
+Buka **phpMyAdmin**, **HeidiSQL**, atau terminal MySQL, lalu buat database baru:
+
+```sql
+CREATE DATABASE inventaris_lab;
+php artisan migrate
 
 ## ⚙️ Cara Jalankan
 
