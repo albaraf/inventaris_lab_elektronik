@@ -30,7 +30,7 @@ Aplikasi CRUD Laravel 12 untuk manajemen inventaris barang elektronik laboratori
 
 Buka **phpMyAdmin**, **HeidiSQL**, atau terminal MySQL, lalu buat database baru:
 
-sql
+mysql
 
 CREATE DATABASE inventaris_lab;
 
